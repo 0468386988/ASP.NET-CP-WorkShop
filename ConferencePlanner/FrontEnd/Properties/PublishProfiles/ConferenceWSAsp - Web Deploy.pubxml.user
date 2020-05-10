@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQ+bKQuFGg06ou6X25NpFmQAAAAACAAAAAAAQZgAAAAEAACAAAABIO2lmODNmU1Mo+V1lIw3ESXICDBkUvlmL4utEdtV9KQAAAAAOgAAAAAIAACAAAACX8LoVlItnRFmd1RPWNRx/kR2DG0m9Yoe5jINlEFGGeoAAAABPi8ugbZ0cLz6gmFa4rKhelqD0Xv9OKNU1zywuIz6xDmgtzsD26fCl8kTJhmQqrKNPMrbq4++thr/ArE2qYhv/iFi2kXCiWetgd8PxGR61nB6nqaJ85wq2FHnHFkxRq/0YAutgs8DUHaWrexjKQHYAHK3gM9tWQfkkA2L+qnzF+EAAAAA1lsiYpH3/+Eii+UbCpEf8i9Spz5qb6YKp4hB4QvZZmMUAAcIGWLEk4RYomZziVHrkpi9qyWhdraCYz3oqGUCM</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="IdentityDbContextConnection">
+      <Value>Data Source=tcp:backendaspdonetwsdbserver.database.windows.net,1433%3bInitial Catalog=ConferenceWSAsp_db%3bUser Id=testaspdonet%40backendaspdonetwsdbserver%3bPassword=Buzidao5_5</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="FrontEnd.Data.IdentityDbContext">
+      <Value>Data Source=tcp:backendaspdonetwsdbserver.database.windows.net,1433%3bInitial Catalog=ConferenceWSAsp_db%3bUser Id=testaspdonet%40backendaspdonetwsdbserver%3bPassword=Buzidao5_5</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
